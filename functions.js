@@ -39,6 +39,10 @@ function minusOne(num){
  * @return {number} the sum
  */
 
+function addTwoNum(num1, num2){
+	var sum = num1 + num2;
+	return sum;
+}
 
 /**
  * Subtracts the second number from the first.
