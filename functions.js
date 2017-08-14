@@ -128,6 +128,13 @@ function calculate(operation, x, y){
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan(x, y){
+	if(x > y){
+		return true;
+	}else{
+		return false;
+	}
+}
 
 /**
  * Returns true if `a` is less than `b`.
