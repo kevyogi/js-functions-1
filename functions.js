@@ -103,6 +103,23 @@ function square(num){
  * @return {number} the result
  */
 
+function calculate(operation, x, y){
+	if(operation === "add"){
+		console.log(x + " + " + y + " = " + (x + y));
+		return (x + y);
+	}else if(operation === "subtract"){
+		console.log(x + " - " + y + " = " + (x - y));
+		return (x - y);
+	}else if(operation === "multiply"){
+		console.log(x + " * " + y + " = " + (x * y));
+		return (x * y);
+	}else if(operation === "divide"){
+		console.log(x + " / " + y + " = " + (x / y));
+		return (x / y);
+	}else{
+		return "that is not one of the possible operations";
+	}
+}
 
 /**
  * Returns true if `a` is greater than `b`.
