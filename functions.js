@@ -143,6 +143,13 @@ function isGreaterThan(x, y){
  * @return {boolean} `a` is smaller than `b`
  */
 
+function isLessThan(x, y){
+	if(x < y){
+		return true;
+	}else{
+		return false;
+	}
+}
 
 /**
  * Returns true if `a` and `b` are equal.
