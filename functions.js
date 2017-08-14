@@ -4,33 +4,34 @@
  * @return {string} the number as a string
  */
 
-function numToString(num){
-	var string = num.toString();
+function numberToString(n){
+	var string = n.toString();
 	return string;
 
 }
-console.log(numToString(5));
+console.log(numberToString(5));
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
 
-function addOne(num){
+function increase(num){
 	var newNum = num + 1;
 	return newNum;
 }
-console.log(addOne(2));
+console.log(increase(2));
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
 
-function minusOne(num){
+function decrease(num){
 	var lessOne = num - 1;
 	return lessOne;
 }
+console.log(decrease(5));
 
 /**
  * Adds two numbers.
@@ -39,10 +40,11 @@ function minusOne(num){
  * @return {number} the sum
  */
 
-function addTwoNum(num1, num2){
+function add(num1, num2){
 	var sum = num1 + num2;
 	return sum;
 }
+
 
 /**
  * Subtracts the second number from the first.
@@ -50,6 +52,11 @@ function addTwoNum(num1, num2){
  * @param {number} y
  * @return {number} the difference
  */
+
+function subtract(num1, num2){
+	var theDifference = num1 - num2;
+	return theDifference;
+}
 
 
 /**
