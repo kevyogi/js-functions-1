@@ -4,6 +4,11 @@
  * @return {string} the number as a string
  */
 
+function numToString(num){
+	var string = num.toString();
+	return string;
+
+}
 
 /**
  * Adds one to a given number.
@@ -11,6 +16,10 @@
  * @return {number}
  */
 
+function addOne(num){
+	var newNum = num + 1;
+	return newNum;
+}
 
 /**
  * Subtracts one from a given number.
