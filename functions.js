@@ -78,6 +78,10 @@ function multiply(num1, num2){
  * @return {number} the quotient
  */
 
+function divide(num1, num2){
+	var quotient = num1/num2;
+	return quotient;
+}
 
 /**
  * Multiplies a number by itself.
