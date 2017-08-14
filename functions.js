@@ -9,7 +9,7 @@ function numToString(num){
 	return string;
 
 }
-
+console.log(numToString(5));
 /**
  * Adds one to a given number.
  * @param {number} n
@@ -20,13 +20,17 @@ function addOne(num){
 	var newNum = num + 1;
 	return newNum;
 }
-
+console.log(addOne(2));
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
 
+function minusOne(num){
+	var lessOne = num - 1;
+	return lessOne;
+}
 
 /**
  * Adds two numbers.
