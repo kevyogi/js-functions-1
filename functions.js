@@ -89,6 +89,10 @@ function divide(num1, num2){
  * @return {number} squared
  */
 
+function square(num){
+	var theSqaure = num * num;
+	return theSqaure;
+}
 
 /**
  * Performs a mathematical operation on two numbers.
