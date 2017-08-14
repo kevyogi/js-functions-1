@@ -249,7 +249,6 @@ function letterGrade(score, maximum){
 		return "F";
 	}
 }
-
 /**
  * Checks if a `restaurant` object has a `reviews` property.
  * If it does, increase the property's `reviews` value by 1.
@@ -258,6 +257,14 @@ function letterGrade(score, maximum){
  * @return {object} restaurant
  */
 
+function incrementReviews(restaurant){
+	if(restaurant.hasOwnProperty("reviews")){
+		restaurant.reviews = restaurant.reviews + 1;
+	}else{
+		restaurant.reviews = 1;
+	}
+	return restaurant;
+}
 
 /**
  * Joins two strings with a space.
